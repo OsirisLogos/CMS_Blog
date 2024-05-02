@@ -1,0 +1,91 @@
+# Created by https://www.toptal.com/developers/gitignore/api/python,django
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,django
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+__pycache__/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### Django ###
+*.log
+*.pot
+local_settings.py
+db.sqlite3  # Include if you test locally with SQLite, otherwise can be removed
+db.sqlite3-journal
+media  # User uploaded media files, consider if you need this ignored based on your hosting setup
+
+# Static files (Uncomment this if you are handling static files with collectstatic)
+# static/
+
+# Ignore migrations if they should not be version controlled (Uncomment if needed)
+# migrations/
+
+### Pipenv ###
+# According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+# Uncomment the following line if you decide not to include it for some reason
+# Pipfile.lock
+
+# Virtual environment
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### JetBrains / PyCharm ###
+# Uncomment if you use JetBrains or PyCharm
+# .idea/
+
+### Miscellaneous ###
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage.json
+
+# MyPy
+.mypy_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Local schema (useful for VCS hooks, remove if not used)
+.schema.yml
+
+# Sphinx documentation
+docs/_build/
